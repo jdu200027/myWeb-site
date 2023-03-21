@@ -52,8 +52,11 @@ form.addEventListener('submit', function (e) {
       `;
     }
 });
-    // form.addEventListener('submit', (e)=>{
-    //     e.preventDefault();
-    //     data.push(searchValue.value);
-    //     console.log(data);
-    // });
+window.KeyboardEvent = ()=>{
+    alert('hello world!')
+}
+// form.addEventListener('submit', (e)=>{
+//     e.preventDefault();
+//     data.push(searchValue.value);
+//     console.log(data);
+// });
