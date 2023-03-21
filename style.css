@@ -1,0 +1,18 @@
+.row .n-level {
+  padding: 5rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.row #n-level-5 {
+  background-image: url("./images/n5-tab.png");
+}
+.row #n-level-4 {
+  background-image: url("./images/n4-tab.png");
+}
+.row #n-level-3 {
+  background-image: url("./images/n3-tab.png");
+}
+.row #n-level-2 {
+  background-image: url("./images/n2-tab.png");
+}/*# sourceMappingURL=style.css.map */
