@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .row .n-level {
   padding: 5rem;
   background-position: center;
