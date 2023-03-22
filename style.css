@@ -1,23 +1,30 @@
 * {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 
-.row .n-level {
-  padding: 4rem;
+.container-fluid .row .n-level {
+  height: 200px;
+  width: 200px;
+  margin: 2rem;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  border-radius: 50%;
+  cursor: pointer;
 }
-.row #n-level-5 {
+.container-fluid .row #n-level-5 {
   background-image: url("./images/n5-tab.png");
 }
-.row #n-level-4 {
+.container-fluid .row #n-level-4 {
   background-image: url("./images/n4-tab.png");
 }
-.row #n-level-3 {
+.container-fluid .row #n-level-3 {
   background-image: url("./images/n3-tab.png");
 }
-.row #n-level-2 {
+.container-fluid .row #n-level-2 {
   background-image: url("./images/n2-tab.png");
+}
+.container-fluid footer {
+  position: relative;
+  top: 285px;
 }/*# sourceMappingURL=style.css.map */

@@ -23,12 +23,13 @@ function upDateTime(){
 upDateTime()
 setInterval(upDateTime, 1000);
 
-
-var form = document.querySelector('form');
-var searchValue = document.getElementById("search");
-form.addEventListener('submit', function (e) {
+var formGrammer = document.querySelector('#form-grammer');
+var formGoi = document.querySelector('#form-goi');
+var searchGrammer = document.getElementById("searchGrammer");
+var searchGoi = document.getElementById('searchGoi')
+formGrammer.addEventListener('submit', function (e) {
     e.preventDefault();
-    var searchQuery = searchValue.value.toLowerCase();
+    var searchQuery = searchGrammer.value.toLowerCase();
     var foundUser = data.find(function (user) {
         return user.grammerName.toLowerCase() === searchQuery;
     });
@@ -52,9 +53,6 @@ form.addEventListener('submit', function (e) {
       `;
     }
 });
-window.KeyboardEvent = ()=>{
-    alert('hello world!')
-}
 // form.addEventListener('submit', (e)=>{
 //     e.preventDefault();
 //     data.push(searchValue.value);
