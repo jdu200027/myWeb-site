@@ -4,8 +4,8 @@
 .container-fluid{
     .row{
         .n-level{
-            height: 200px;
-            width: 200px;
+            height: 15rem;
+            width: 15rem;
             margin: 2rem;
             background-position: center;
             background-repeat: no-repeat;
@@ -13,21 +13,20 @@
             border-radius: 50%;
             cursor: pointer;
         }
-        #n-level-5{
-            background-image: url('./images/n5-tab.png');
-        }
-        #n-level-4{
-            background-image: url('./images/n4-tab.png');
-        }
-        #n-level-3{
-            background-image: url('./images/n3-tab.png');
-        }
-        #n-level-2{
-            background-image: url('./images/n2-tab.png');
-        }
     }
     footer{
         position: relative;
         top: 285px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .container-fluid {
+        .row{
+            .n-level{
+                height: 6.5rem;
+                width: 6.5rem;
+                margin: 1rem;    
+            }
+        }
     }
 }
